@@ -1,0 +1,27 @@
+Certainly! Tic Tac Toe is a classic two-player game played on a 3x3 grid. The players, traditionally 'X' and 'O', take turns marking an empty cell on the grid. The goal is to form a row, column, or diagonal with three of their symbols.
+
+Here's a breakdown of the game:
+
+1. *Objective:*
+   - The primary objective is to have three of your symbols ('X' or 'O') in a row, column, or diagonal.
+   - The game can also end in a draw if the entire grid is filled without either player achieving the winning condition.
+
+2. *Gameplay:*
+   - Players take turns placing their symbol in an empty cell on the grid.
+   - The first player usually plays 'X', and the second player plays 'O'.
+   - Players alternate turns until the game reaches a conclusion.
+
+3. *Winning Conditions:*
+   - A player wins if they have three of their symbols in a row (horizontal, vertical, or diagonal).
+   - The game stops as soon as a player achieves this, and that player is declared the winner.
+
+4. *Draw/Tie:*
+   - If all cells on the grid are filled and no player has three in a row, the game is a draw or a tie.
+
+5. *Implementation Overview (in Python code above):*
+   - The `print_board` function displays the current state of the board.
+   - `check_winner` function determines if a player has won by checking rows, columns, and diagonals.
+   - `is_board_full` function checks if the board is completely filled.
+   - `play_tic_tac_toe` function orchestrates the game, handling player moves, checking for a winner or tie, and switching players.
+
+Tic Tac Toe is often used as a simple exercise in programming and artificial intelligence due to its straightforward rules and structure. It's a game that's easy to understand but can become quite strategic as players become more experienced.
